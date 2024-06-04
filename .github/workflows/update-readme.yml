@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: '0 * * * *' # This will run the action every hour
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
