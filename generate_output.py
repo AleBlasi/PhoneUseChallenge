@@ -1,7 +1,7 @@
 # generate_output.py
 def generate_output():
     # Example logic to generate output
-    output = "Hello, World! This is the latest update."
+    output = "Hello, World!"
     return output
 
 if __name__ == "__main__":
